@@ -1,0 +1,21 @@
+/* EX. 7.1 — Remplacer la palette + police ICI (dans :root)
+   Palette cible demandée dans le corrigé plus bas.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Story+Script&display=swap");
+
+:root {
+  /* === Palette de couleurs === */
+  --bs-danger: #791a14;
+  --bs-danger-rgb: 121, 26, 20;
+  --bs-primary: #e9b684;
+  --bs-primary-rgb: 233, 182, 132;
+  --bs-warning: #f8a128;
+  --bs-primary-rgb: 248, 161, 40;
+
+  /* === Typographie === */
+  --bs-font-sans-serif: "Story Script", sans-serif;
+
+  /* === Boutons === */
+  --bs-border-radius: 0.25rem;
+  --bs-border-radius-lg: 0.25rem;
+}

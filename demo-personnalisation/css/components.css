@@ -1,0 +1,44 @@
+/* ========== Boutons ========== */
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: color-mix(in srgb, var(--bs-primary), black 25%);
+    --bs-btn-hover-border-color: var(--bs-primary);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--bs-primary);
+    --bs-btn-active-border-color: var(--bs-primary);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: var(--bs-primary);
+    --bs-btn-disabled-border-color: var(--bs-primary);
+}
+
+.btn-outline-primary {
+    --bs-btn-color: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-primary);
+    --bs-btn-hover-color: #fff;
+}
+
+.btn-outline-danger {
+  --bs-btn-color: var(--bs-danger);
+  --bs-btn-border-color: var(--bs-danger);
+  --bs-btn-hover-bg: var(--bs-danger);
+  --bs-btn-hover-color: #fff;
+}
+
+/* ========== Alertes ========== */
+.alert-primary {
+  --bs-alert-bg: color-mix(in srgb, var(--bs-primary) 10%, white 90%);
+  --bs-alert-border-color: var(--bs-primary);
+  --bs-alert-color: var(--bs-primary);
+}
+
+.alert-danger {
+  --bs-alert-bg: color-mix(in srgb, var(--bs-danger) 10%, white 90%);
+  --bs-alert-border-color: var(--bs-danger);
+  --bs-alert-color: var(--bs-danger);
+}

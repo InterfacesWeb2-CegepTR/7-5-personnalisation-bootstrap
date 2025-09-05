@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* Palette principale du site */
+:root {
+    --bs-primary: #8e44ad;         /* Violet */
+    --bs-primary-rgb: 142, 68, 173;
+
+    --bs-secondary: #34495e;        /* Gris foncé */
+    --bs-success: #27ae60;          /* Vert */
+    --bs-danger: #a15951;           /* Rouge */
+    --bs-warning: #f39c12;          /* Orange/jaune */
+    --bs-info: #16a085;             /* Turquoise */
+
+    --bs-secondary-bg: #f2f3f5;     /* Pour bg-body-secondary */
+    --bs-link-color: var(--bs-primary);
+  
+    /* Police */
+    --bs-font-sans-serif: 'Roboto', sans-serif;
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+}

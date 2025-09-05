@@ -1,0 +1,14 @@
+/* EX. 7.2 — Cibler .btn-primary : couleurs hover + border-radius ici */
+
+/* Exemple déjà prêt pour btn-outline-danger */
+.btn-outline-danger {
+  --bs-btn-color: var(--bs-danger);
+  --bs-btn-border-color: var(--bs-danger);
+  --bs-btn-hover-bg: var(--bs-danger);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-border-color: var(--bs-danger);
+  --bs-btn-active-bg: var(--bs-danger);
+  --bs-btn-active-border-color: var(--bs-danger);
+}
+
+/* Vous pouvez ajouter vos règles pour .btn-primary ici pendant l'exercice. */

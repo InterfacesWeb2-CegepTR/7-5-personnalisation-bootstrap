@@ -1,0 +1,12 @@
+/* EX. 7.1 — Remplacer la palette + police ICI (dans :root)
+   Palette cible demandée dans le corrigé plus bas.
+*/
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
+
+:root {
+  /* === Palette de couleurs === */
+  --bs-danger: #791a14;
+  --bs-danger-rgb: 121, 26, 20;
+
+  /* === Typographie === */
+}
